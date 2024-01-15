@@ -1,0 +1,22 @@
+.App {
+  text-align: right;
+  font-size: xx-large;
+}
+
+button{
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+}
+
+button:hover{
+  background-color: red !important;
+}
